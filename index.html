@@ -33,18 +33,14 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">
-                            <span class="fr-smooth">Portfolio</span>
-                            <span class="en-smooth">Portfolio</span>
-
-                        </a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">
                             <span class="fr-smooth">À propos de moi</span>
                             <span class="en-smooth">About me</span>
                         </a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">
-                            <span class="fr-smooth">Me contacter</span>
-                            <span class="en-smooth">Contact me</span>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">
+                            <span class="fr-smooth">Portfolio</span>
+                            <span class="en-smooth">Portfolio</span>
+
                         </a></li>
                         <li class="nav-item mx-0 mx-lg-1 dropdown">
                             <a class="nav-link py-3 px-0 px-lg-3 dropdown-toggle" href="#language" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
@@ -62,35 +58,65 @@
         </nav>
         <!-- Masthead-->
         <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
+            <div class="container align-items-center">
                 <!-- Masthead Avatar Image-->
                 <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />
                 <!-- Masthead Heading-->
                 <h1 class="masthead-heading text-uppercase mb-0">Charlotte Nicaudie</h1>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                </div>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">
+                <p class="masthead-subheading font-weight-light mb-4">
                     <span class="fr">Étudiante en informatique à l'INSA Rennes</span>
                     <span class="en">Computer Science student at INSA Rennes</span>
                 </p>
+                <!-- Socials -->
+                <div class="row">
+                    <div class="col-lg-4 mb-lg-0">
+                    </div>
+                    <!-- Social Icons-->
+                    <div class="col-lg-4 mb-lg-0">
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/charlottenicaudie/"><i class="fab fa-fw fa-linkedin-in"></i></a>                        
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/cnicaudie"><i class="fab fa-fw fa-github"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="mailto: charlotte.nicaudie@gmail.com"><i class="fa fa-envelope"></i></a>
+                    </div>
+                    <div class="col-lg-4">
+                    </div>
+                </div>
             </div>
         </header>
+        <!-- About Section-->
+        <section class="page-section bg-ternary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase">
+                    <span class="fr">À propos de moi</span>
+                    <span class="en">About me</span>
+                </h2>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-4 ms-auto"><p class="lead">
+                        // TODO
+                    </p></div>
+                    <div class="col-lg-4 me-auto"><p class="lead">
+                        // TODO
+                    </p></div>
+                </div>
+                <!-- About Section Button-->
+                <!-- <div class="text-center mt-4">
+                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
+                        <i class="fas fa-download me-2"></i>
+                        Free Download!
+                    </a>
+                </div> -->
+            </div>
+        </section>
         <!-- Portfolio Section-->
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
                 <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Portfolio Grid Items-->
+                <h2 class="page-section-heading text-center text-uppercase text-primary mb-3‡">Portfolio</h2>
                 <div class="row justify-content-center gx-0">
                     <!-- Portfolio Personnal Heading -->
-                    <h3 class="text-center text-uppercase text-secondary mb-0">                    
+                    <h3 class="text-secondary mb-0">                    
                         <span class="fr">Projets personnels</span>
                         <span class="en">Personnal projects</span>
                     </h3>
@@ -98,8 +124,9 @@
                     <div class="divider-custom">
                         <div class="divider-custom-line"></div>
                     </div>
+                    <!-- Portfolio Grid Items-->
                     <!-- Portfolio Item 1-->
-                    <div class="row gx-0">
+                    <div class="row gx-0 mb-4">
                         <div class="col-lg-6">
                             <a class="portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
                                 <div class="caption">
@@ -118,12 +145,8 @@
                             </a>
                         </div>
                     </div>
-                    <!-- Icon Divider-->
-                    <div class="divider-custom">
-                        <div class="divider-custom-line"></div>
-                    </div>
                     <!-- Portfolio Group Heading -->
-                    <h3 class="text-center text-uppercase text-secondary mb-0">
+                    <h3 class="text-secondary mb-0">
                         <span class="fr">Projets en groupe</span>
                         <span class="en">Group projects</span>
                     </h3>
@@ -204,83 +227,6 @@
                                 <img class="img-fluid" src="assets/img/PacMax.png" alt="..." />
                             </a>
                         </div>
-                    </div>
-                </div>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- GitHub page -->
-                <div class="row text-center text-secondary">
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                    </div>
-                    <!-- Icon -->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">
-                            <span class="fr">Page GitHub</span>
-                            <span class="en">GitHub page</span>    
-                        </h4>
-                        <!-- Icon Divider-->
-                        <div class="divider-custom">
-                            <div class="divider-custom-line"></div>
-                        </div>
-                        <a class="btn btn-outline-dark btn-social mx-1" href="https://github.com/cnicaudie"><i class="fab fa-fw fa-github"></i></a>
-                    </div>
-                    <div class="col-lg-4">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- About Section-->
-        <section class="page-section bg-primary text-white mb-0" id="about">
-            <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">
-                    <span class="fr">À propos de moi</span>
-                    <span class="en">About me</span>
-                </h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">
-                        // TODO
-                    </p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">
-                        // TODO
-                    </p></div>
-                </div>
-                <!-- About Section Button-->
-                <!-- <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
-                        <i class="fas fa-download me-2"></i>
-                        Free Download!
-                    </a>
-                </div> -->
-            </div>
-        </section>
-        <!-- Contact Section-->
-        <section class="page-section text-center" id="contact">
-            <div class="container">
-                <h2 class="page-section-heading text-uppercase text-secondary mb-0">
-                    <span class="fr">Me contacter</span>
-                    <span class="en">Contact me</span>
-                </h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                    </div>
-                    <!-- Social Icons-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <a class="btn btn-outline-dark btn-social mx-1" href="https://www.linkedin.com/in/charlottenicaudie/"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-dark btn-social mx-1" href="mailto: charlotte.nicaudie@gmail.com"><i class="fa fa-envelope"></i></a>
-                    </div>
-                    <div class="col-lg-4">
                     </div>
                 </div>
             </div>
