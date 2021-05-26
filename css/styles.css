@@ -3343,7 +3343,7 @@ textarea.form-control-lg {
   border-color: #f8f9fa;
 }
 .btn-outline-light:hover {
-  color: #000;
+  color: #2c3e50;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
 }
@@ -10985,15 +10985,16 @@ html {
   line-height: 2.75rem;
 }
 .masthead .masthead-subheading {
-  font-size: 1.25rem;
+  font-size: 2rem;
+  font-weight: lighter;
 }
 .masthead .masthead-avatar {
-  width: 15rem;
+  width: 18rem;
 }
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
+    padding-top: calc(6rem + 54px);
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
@@ -11081,6 +11082,5 @@ html {
 }
 
 .copyright {
-  color: rgb(228, 176, 72);
   background-color: #010c16;
 }
