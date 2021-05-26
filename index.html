@@ -10,9 +10,12 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Simple line icons-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
@@ -36,12 +39,12 @@
 
                         </a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">
-                            <span class="fr-smooth">À propos</span>
-                            <span class="en-smooth">About</span>
+                            <span class="fr-smooth">À propos de moi</span>
+                            <span class="en-smooth">About me</span>
                         </a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">
                             <span class="fr-smooth">Me contacter</span>
-                            <span class="en-smooth">Contact</span>
+                            <span class="en-smooth">Contact me</span>
                         </a></li>
                         <li class="nav-item mx-0 mx-lg-1 dropdown">
                             <a class="nav-link py-3 px-0 px-lg-3 dropdown-toggle" href="#language" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
@@ -85,7 +88,7 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Grid Items-->
-                <div class="row justify-content-center">
+                <div class="row justify-content-center gx-0">
                     <!-- Portfolio Personnal Heading -->
                     <h3 class="text-center text-uppercase text-secondary mb-0">                    
                         <span class="fr">Projets personnels</span>
@@ -96,15 +99,23 @@
                         <div class="divider-custom-line"></div>
                     </div>
                     <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-                                    <span class="fr">Seek A Soul</span>
-                                    <span class="en">Seek A Soul</span>
+                    <div class="row gx-0">
+                        <div class="col-lg-6">
+                            <a class="portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <div class="h2">
+                                            <span class="fr">Seek A Soul</span>
+                                            <span class="en">Seek A Soul</span>
+                                        </div>
+                                        <p class="mb-0">
+                                            <span class="fr">Mon premier jeu de plateforme en 2D</span>
+                                            <span class="en">My first 2D platformer game</span>
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <img class="img-fluid" style="border-radius: 0.8rem; border: 4px solid #2c3e50;" src="assets/img/portfolio/cabin.png" alt="..." />
+                                <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
+                            </a>
                         </div>
                     </div>
                     <!-- Icon Divider-->
@@ -121,51 +132,77 @@
                         <div class="divider-custom-line"></div>
                     </div>
                     <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-                                    <span class="fr">Thurston's UniVR</span>
-                                    <span class="en">Thurston's UniVR</span>
+                    <div class="row gx-0">
+                        <div class="col-lg-6">
+                            <a class="portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <div class="h2">
+                                            <span class="fr">Thurston's UniVR</span>
+                                            <span class="en">Thurston's UniVR</span>
+                                        </div>
+                                        <p class="mb-0">
+                                            <span class="fr">Projet mêlant mathématiques et réalité virtuelle</span>
+                                            <span class="en">Project mixing mathematics and virtual reality</span>
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <img class="img-fluid" style="border-radius: 0.8rem; border: 4px solid #2c3e50;" src="assets/img/UniVR.png" alt="..." />
+                                <img class="img-fluid" src="assets/img/UniVR.png" alt="..." />
+                            </a>
                         </div>
-                    </div>
-                    <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-                                    <span class="fr">Islander</span>
-                                    <span class="en">Islander</span>
+                        <!-- Portfolio Item 3-->
+                        <div class="col-lg-6">
+                            <a class="portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <div class="h2">
+                                            <span class="fr">Islander</span>
+                                            <span class="en">Islander</span>
+                                        </div>
+                                        <p class="mb-0">
+                                            <span class="fr">Projet de puzzle stratégique via une application web</span>
+                                            <span class="en">Strategic puzzle project in a web application</span>
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <img class="img-fluid" style="border-radius: 0.8rem; border: 4px solid #2c3e50;" src="assets/img/Islander.png" alt="..." />
+                                <img class="img-fluid" src="assets/img/Islander.png" alt="..." />
+                            </a>
                         </div>
-                    </div>
-                    <!-- Portfolio Item 4-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-                                    <span class="fr">Jeu de Paume en RV</span>
-                                    <span class="en"><i>"Jeu de Paume"</i> in VR</span>
+                        <!-- Portfolio Item 4-->
+                        <div class="col-lg-6">
+                            <a class="portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <div class="h2">
+                                            <span class="fr">Jeu de Paume en RV</span>
+                                            <span class="en"><i>Jeu de Paume</i> en RV</span>
+                                        </div>
+                                        <p class="mb-0">
+                                            <span class="fr">Projet de simulation historique en réalité virtuelle</span>
+                                            <span class="en">Historical simulation project in virtual reality</span>
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <img class="img-fluid" style="border-radius: 0.8rem; border: 4px solid #2c3e50;" src="assets/img/JDPVR.png" alt="..." />
+                                <img class="img-fluid" src="assets/img/JDPVR.png" alt="..." />
+                            </a>
                         </div>
-                    </div>
-                    <!-- Portfolio Item 5-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-                                    <span class="fr">PACMAX</span>
-                                    <span class="en">PACMAX</span>
+                        <!-- Portfolio Item 5-->
+                        <div class="col-lg-6">
+                            <a class="portfolio-item" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <div class="h2">
+                                            <span class="fr">PACMAX</span>
+                                            <span class="en">PACMAX</span>
+                                        </div>
+                                        <p class="mb-0">
+                                            <span class="fr">Projet de découverte d'un algorithme d'IA</span>
+                                            <span class="en">AI algorithm discovery project</span>
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <img class="img-fluid" style="border-radius: 0.8rem; border: 4px solid #2c3e50;" src="assets/img/PacMax.png" alt="..." />
+                                <img class="img-fluid" src="assets/img/PacMax.png" alt="..." />
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -176,8 +213,8 @@
             <div class="container">
                 <!-- About Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-white">
-                    <span class="fr">À propos</span>
-                    <span class="en">About</span>
+                    <span class="fr">À propos de moi</span>
+                    <span class="en">About me</span>
                 </h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
