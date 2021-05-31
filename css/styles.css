@@ -7350,6 +7350,10 @@ textarea.form-control-lg {
   color: #2c3e50 !important;
 }
 
+.text-mid {
+  font-size: large !important;
+}
+
 .text-success {
   color: #198754 !important;
 }
@@ -10881,7 +10885,7 @@ html {
   font-size: 2rem;
 }
 .divider-custom.divider-light .divider-custom-line {
-  background-color: #fff;
+  background-color: #e4b048;
 }
 .divider-custom.divider-light .divider-custom-icon {
   color: #fff;
