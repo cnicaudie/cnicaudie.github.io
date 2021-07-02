@@ -57,6 +57,11 @@ window.addEventListener('DOMContentLoaded', event => {
     $(".en-smooth").hide();
     window.fr = true;
 
+    // Tooltip
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+
     // Toggle dropdown menu (for switch language)
     const dropdownElementList = [].slice.call(document.querySelectorAll('.dropdown-toggle'))
     const dropdownList = dropdownElementList.map(function (dropdownToggleEl) {
