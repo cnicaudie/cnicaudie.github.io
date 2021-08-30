@@ -1,3 +1,5 @@
 # Personnal portfolio
 
-The site is not done yet.
+This website contains some informations about me, my personnal projects as well as my student projects.
+
+URL : cnicaudie.github.io
